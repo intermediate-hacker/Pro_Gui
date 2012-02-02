@@ -32,6 +32,10 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_NEW"><param name="Local" value="pro__macro_8h.html#a8eb192e2f5ae4dfe6208f09ca5f8e0f9"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_main.h"><param name="Local" value="pro__main_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_platform.h"><param name="Local" value="pro__platform_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_WINDOW_COLOR"><param name="Local" value="pro__platform_8h.html#a1d70902fa87f8e5340f994c3c329f191"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_signal.h"><param name="Local" value="pro__signal_8h.html"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_ERROR"><param name="Local" value="pro__signal_8h.html#af718d8476adad5395165d899ff5d53f1"><param name="ImageNumber" value="11"></OBJECT>
@@ -48,12 +52,17 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="Pro_Window_Signals"><param name="Local" value="pro__window_8h.html#a465f86dc848d1010b1ea4d310280ac94"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_destroy"><param name="Local" value="pro__window_8h.html#a94c791e65a435363030af70d80566629"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_display"><param name="Local" value="pro__window_8h.html#a3144b9fd3de420ca2a019c18975f122e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_fill_color"><param name="Local" value="pro__window_8h.html#ad310dbddb3c74fcbc72757160704ad84"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_fps"><param name="Local" value="pro__window_8h.html#a87ad8ead9b837487af61221e07759339"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_height"><param name="Local" value="pro__window_8h.html#a8878c874c2639752ad50d086b7aaaae7"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_width"><param name="Local" value="pro__window_8h.html#a7328d114fe9dc881a184adcee1277c8b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_is_open"><param name="Local" value="pro__window_8h.html#a4038ec50475a2bf857c72faaf8e8bbca"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_new"><param name="Local" value="pro__window_8h.html#ac7bdf7e6a1e12d6aa225483d7f3ae575"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_quit"><param name="Local" value="pro__window_8h.html#a87c5b7d85bb79f4651487e8c19acc1ca"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_redraw"><param name="Local" value="pro__window_8h.html#a81451729d2803ba8a015c17557ae6a93"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_return_target"><param name="Local" value="pro__window_8h.html#a6250595200bd4c97ed1d35e15a5eab4d"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_run"><param name="Local" value="pro__window_8h.html#a2aa03384a606128d0a1e8787cbf8523c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_set_fill_color"><param name="Local" value="pro__window_8h.html#ace8c07f29582a3e6530074215f730ce8"><param name="ImageNumber" value="11"></OBJECT>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_set_fps"><param name="Local" value="pro__window_8h.html#ab3465e3de783bd796f041e566af66ab8"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_window_signals.h"><param name="Local" value="pro__window__signals_8h.html"><param name="ImageNumber" value="11"></OBJECT>

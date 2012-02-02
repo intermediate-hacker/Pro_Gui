@@ -67,7 +67,7 @@
 <a name="l00018"></a>00018 
 <a name="l00019"></a>00019 <span class="preprocessor">#define PRO_SIGNAL( func, param ) (*func)(param)</span>
 <a name="l00020"></a>00020 <span class="preprocessor"></span>
-<a name="l00025"></a><a class="code" href="pro__signal_8h.html#a7cf650e4d5f74fb30c9d703574968b66">00025</a> <span class="preprocessor">#define pro_signal_emit( signal , args ) (*signal)(args)</span>
+<a name="l00025"></a><a class="code" href="pro__signal_8h.html#a7cf650e4d5f74fb30c9d703574968b66">00025</a> <span class="preprocessor">#define pro_signal_emit( signal , args ) if(signal) (*signal)(args)</span>
 <a name="l00026"></a>00026 <span class="preprocessor"></span><span class="preprocessor">#define pro_signal_connect( obj, signal, func ) if ( func != NULL){ signal = func; }</span>
 <a name="l00027"></a>00027 <span class="preprocessor"></span>
 <a name="l00028"></a>00028 <span class="preprocessor">#endif </span><span class="comment">/* PRO_SIGNAL_H */</span>
@@ -75,7 +75,7 @@
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 2 2012 10:55:12 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 13:47:09 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

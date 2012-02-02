@@ -85,11 +85,16 @@ Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a2aa03384a606128d0a1e8787cbf8523c">pro_window_run</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a94c791e65a435363030af70d80566629">pro_window_destroy</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a81451729d2803ba8a015c17557ae6a93">pro_window_redraw</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a4038ec50475a2bf857c72faaf8e8bbca">pro_window_is_open</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a87c5b7d85bb79f4651487e8c19acc1ca">pro_window_quit</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a7328d114fe9dc881a184adcee1277c8b">pro_window_get_width</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a8878c874c2639752ad50d086b7aaaae7">pro_window_get_height</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">ALLEGRO_DISPLAY *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a3144b9fd3de420ca2a019c18975f122e">pro_window_get_display</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#ab3465e3de783bd796f041e566af66ab8">pro_window_set_fps</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win, float fps)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a87ad8ead9b837487af61221e07759339">pro_window_get_fps</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#ace8c07f29582a3e6530074215f730ce8">pro_window_set_fill_color</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win, ALLEGRO_COLOR color)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">ALLEGRO_COLOR&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#ad310dbddb3c74fcbc72757160704ad84">pro_window_get_fill_color</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="pro__window_8h.html#a6250595200bd4c97ed1d35e15a5eab4d">pro_window_return_target</a> (<a class="el" href="struct___pro___window.html">Pro_Window</a> *win)</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>The Main Window Structure. </p>
@@ -131,6 +136,29 @@ Functions</h2></td></tr>
 <dl class="retval"><dt><b>Return values:</b></dt><dd>
   <table class="retval">
     <tr><td class="paramname">pointer</td><td>to the ALLEGRO_DISPLAY being used. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad310dbddb3c74fcbc72757160704ad84"></a><!-- doxytag: member="pro_window.h::pro_window_get_fill_color" ref="ad310dbddb3c74fcbc72757160704ad84" args="(Pro_Window *win)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ALLEGRO_COLOR <a class="el" href="pro__window_8h.html#ad310dbddb3c74fcbc72757160704ad84">pro_window_get_fill_color</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct___pro___window.html">Pro_Window</a> *&#160;</td>
+          <td class="paramname"><em>win</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="retval"><dt><b>Return values:</b></dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">color</td><td>used to fill the window </td></tr>
   </table>
   </dd>
 </dl>
@@ -206,6 +234,29 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4038ec50475a2bf857c72faaf8e8bbca"></a><!-- doxytag: member="pro_window.h::pro_window_is_open" ref="a4038ec50475a2bf857c72faaf8e8bbca" args="(Pro_Window *win)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="pro__window_8h.html#a4038ec50475a2bf857c72faaf8e8bbca">pro_window_is_open</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct___pro___window.html">Pro_Window</a> *&#160;</td>
+          <td class="paramname"><em>win</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="retval"><dt><b>Return values:</b></dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">1</td><td>if window is open, 0 if window has quit </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ac7bdf7e6a1e12d6aa225483d7f3ae575"></a><!-- doxytag: member="pro_window.h::pro_window_new" ref="ac7bdf7e6a1e12d6aa225483d7f3ae575" args="(int w, int h)" -->
 <div class="memitem">
 <div class="memproto">
@@ -241,6 +292,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a87c5b7d85bb79f4651487e8c19acc1ca"></a><!-- doxytag: member="pro_window.h::pro_window_quit" ref="a87c5b7d85bb79f4651487e8c19acc1ca" args="(Pro_Window *win)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="pro__window_8h.html#a87c5b7d85bb79f4651487e8c19acc1ca">pro_window_quit</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct___pro___window.html">Pro_Window</a> *&#160;</td>
+          <td class="paramname"><em>win</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>Quits the window main loop </p>
+
+</div>
+</div>
 <a class="anchor" id="a81451729d2803ba8a015c17557ae6a93"></a><!-- doxytag: member="pro_window.h::pro_window_redraw" ref="a81451729d2803ba8a015c17557ae6a93" args="(Pro_Window *win)" -->
 <div class="memitem">
 <div class="memproto">
@@ -259,6 +328,24 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6250595200bd4c97ed1d35e15a5eab4d"></a><!-- doxytag: member="pro_window.h::pro_window_return_target" ref="a6250595200bd4c97ed1d35e15a5eab4d" args="(Pro_Window *win)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="pro__window_8h.html#a6250595200bd4c97ed1d35e15a5eab4d">pro_window_return_target</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct___pro___window.html">Pro_Window</a> *&#160;</td>
+          <td class="paramname"><em>win</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<p>sets al_target_bitmap back to Pro_Window's back buffer </p>
+
+</div>
+</div>
 <a class="anchor" id="a2aa03384a606128d0a1e8787cbf8523c"></a><!-- doxytag: member="pro_window.h::pro_window_run" ref="a2aa03384a606128d0a1e8787cbf8523c" args="(Pro_Window *win)" -->
 <div class="memitem">
 <div class="memproto">
@@ -274,6 +361,39 @@ Functions</h2></td></tr>
 </div>
 <div class="memdoc">
 <p>Begins the window main-loop </p>
+
+</div>
+</div>
+<a class="anchor" id="ace8c07f29582a3e6530074215f730ce8"></a><!-- doxytag: member="pro_window.h::pro_window_set_fill_color" ref="ace8c07f29582a3e6530074215f730ce8" args="(Pro_Window *win, ALLEGRO_COLOR color)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="pro__window_8h.html#ace8c07f29582a3e6530074215f730ce8">pro_window_set_fill_color</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct___pro___window.html">Pro_Window</a> *&#160;</td>
+          <td class="paramname"><em>win</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ALLEGRO_COLOR&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+<dl class="params"><dt><b>Parameters:</b></dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname"></td><td>color used to fill the window </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -314,7 +434,7 @@ Functions</h2></td></tr>
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Thu Feb 2 2012 10:55:12 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 13:47:09 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>
