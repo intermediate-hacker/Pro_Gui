@@ -2,6 +2,7 @@
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_native_dialog.h>
 #include "pro_window.h"
+#include "pro_window_signals.h"
 
 
 void paint_two( Pro_Window* obj )
@@ -15,9 +16,9 @@ int main( int argc, char* argv[] )
     al_init();
     Pro_Window* win = pro_window_new(640,480);
 
-    pro_window_paint_connect( win, paint_two );
+    pro_signal_connect( win, win->signal->paint, paint_two );
 
-    pro_window_set_fps( win, 20 );
+    pro_window_set_fps( win, 1 );
 
     pro_window_run(win);
 

@@ -78,6 +78,7 @@
 			<Option link="1" />
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="include\pro_window_signals.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

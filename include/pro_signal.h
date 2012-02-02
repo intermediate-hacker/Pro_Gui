@@ -23,5 +23,6 @@ typedef void (*Pro_Signal)(void*);
 *   @param [in] args arguments for the function call;
 **/
 #define pro_signal_emit( signal , args ) (*signal)(args)
+#define pro_signal_connect( obj, signal, func ) if ( func != NULL){ signal = func; }
 
 #endif /* PRO_SIGNAL_H */

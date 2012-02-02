@@ -1,5 +1,6 @@
 #include "pro_main.h"
 #include "pro_window.h"
+#include "pro_window_signals.h"
 
 struct _Pro_Window_Private
 {
@@ -76,7 +77,7 @@ void pro_window_redraw( Pro_Window* win )
     Pro_Window_Private* priv = win->priv;
     al_clear_to_color( priv->fill_color );
 
-    pro_window_paint_emit( win );
+    pro_signal_emit( win->signal->paint, win );
     al_flip_display();
 }
 

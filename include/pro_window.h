@@ -50,11 +50,4 @@ void pro_window_set_fps( Pro_Window* win, float fps );
 /** @retval frame rate per second of the window **/
 float pro_window_get_fps( Pro_Window* win );
 
-/** @param [in] signal to be emited when painting **/
-void pro_window_paint_connect( Pro_Window* win, void(*func)(Pro_Window*) );
-/** @retval slots taken up by user-defined functions **/
-int pro_window_paint_count( Pro_Window* win );
-/** emits the 'paint' signal **/
-void pro_window_paint_emit( Pro_Window* win );
-
 #endif /* PRO_WINDOW_H */
