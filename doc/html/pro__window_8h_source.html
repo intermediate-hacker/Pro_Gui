@@ -65,12 +65,12 @@
 <a name="l00014"></a>00014 
 <a name="l00015"></a>00015 <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct___pro___window.html">_Pro_Window</a> <a class="code" href="struct___pro___window.html">Pro_Window</a>;
 <a name="l00016"></a>00016 <span class="keyword">typedef</span> <span class="keyword">struct </span>_Pro_Window_Private Pro_Window_Private;
-<a name="l00017"></a>00017 <span class="keyword">typedef</span> <span class="keyword">struct </span>_Pro_Window_Signals Pro_Window_Signals;
+<a name="l00017"></a>00017 <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code" href="struct___pro___window___signals.html">_Pro_Window_Signals</a> <a class="code" href="struct___pro___window___signals.html">Pro_Window_Signals</a>;
 <a name="l00018"></a>00018 
 <a name="l00020"></a><a class="code" href="struct___pro___window.html">00020</a> <span class="keyword">struct </span><a class="code" href="struct___pro___window.html">_Pro_Window</a>
 <a name="l00021"></a>00021 {
 <a name="l00022"></a>00022     Pro_Window_Private* priv;
-<a name="l00023"></a>00023     Pro_Window_Signals* signal;
+<a name="l00023"></a>00023     <a class="code" href="struct___pro___window___signals.html">Pro_Window_Signals</a>* signal;
 <a name="l00024"></a>00024 };
 <a name="l00025"></a>00025 
 <a name="l00030"></a>00030 <a class="code" href="struct___pro___window.html">Pro_Window</a>* <a class="code" href="pro__window_8h.html#ac7bdf7e6a1e12d6aa225483d7f3ae575">pro_window_new</a>( <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h );
@@ -88,16 +88,12 @@
 <a name="l00049"></a>00049 <span class="keywordtype">void</span> <a class="code" href="pro__window_8h.html#ab3465e3de783bd796f041e566af66ab8">pro_window_set_fps</a>( <a class="code" href="struct___pro___window.html">Pro_Window</a>* win, <span class="keywordtype">float</span> fps );
 <a name="l00051"></a>00051 <span class="keywordtype">float</span> <a class="code" href="pro__window_8h.html#a87ad8ead9b837487af61221e07759339">pro_window_get_fps</a>( <a class="code" href="struct___pro___window.html">Pro_Window</a>* win );
 <a name="l00052"></a>00052 
-<a name="l00054"></a>00054 <span class="keywordtype">void</span> <a class="code" href="pro__window_8h.html#a6ce6ba672dcb7fe207911f72f2453bdc">pro_window_paint_connect</a>( <a class="code" href="struct___pro___window.html">Pro_Window</a>* win, <span class="keywordtype">void</span>(*func)(<a class="code" href="struct___pro___window.html">Pro_Window</a>*) );
-<a name="l00056"></a>00056 <span class="keywordtype">int</span> <a class="code" href="pro__window_8h.html#a8f3a1e4eec01f922fa76223da278d5b4">pro_window_paint_count</a>( <a class="code" href="struct___pro___window.html">Pro_Window</a>* win );
-<a name="l00058"></a>00058 <span class="keywordtype">void</span> <a class="code" href="pro__window_8h.html#a0d65522e82597ada2126cd574c07b29c">pro_window_paint_emit</a>( <a class="code" href="struct___pro___window.html">Pro_Window</a>* win );
-<a name="l00059"></a>00059 
-<a name="l00060"></a>00060 <span class="preprocessor">#endif </span><span class="comment">/* PRO_WINDOW_H */</span>
+<a name="l00053"></a>00053 <span class="preprocessor">#endif </span><span class="comment">/* PRO_WINDOW_H */</span>
 </pre></div></div><!-- contents -->
 
 
 <hr class="footer"/><address class="footer"><small>
-Generated on Wed Feb 1 2012 23:13:05 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Thu Feb 2 2012 10:50:32 for Pro_Gui by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.7.6.1
 </small></address>

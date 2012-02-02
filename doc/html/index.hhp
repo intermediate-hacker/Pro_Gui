@@ -16,11 +16,13 @@ pro__macro_8h_source.html
 pro__main_8h_source.html
 pro__signal_8h_source.html
 pro__window_8h_source.html
+pro__window__signals_8h_source.html
 pro__macro_8h.html
 pro__main_8h.html
 pro__signal_8h.html
 pro__window_8h.html
 struct___pro___window.html
+struct___pro___window___signals.html
 index.html
 annotated.html
 classes.html
