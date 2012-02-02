@@ -71,6 +71,7 @@
 		</Linker>
 		<Unit filename="include\pro_macro.h" />
 		<Unit filename="include\pro_main.h" />
+		<Unit filename="include\pro_platform.h" />
 		<Unit filename="include\pro_signal.h" />
 		<Unit filename="include\pro_window.h">
 			<Option compilerVar="CC" />

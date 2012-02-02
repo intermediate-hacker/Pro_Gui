@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+#include "pro_platform.h"
 #include "pro_macro.h"
 #include "pro_signal.h"
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1328164937 source:d:\software development\c++\misc\allegro_test\main.c
+1328174319 source:d:\software development\c++\misc\allegro_test\main.c
 	<stdlib.h>
 	<allegro5/allegro.h>
 	<allegro5/allegro_native_dialog.h>
@@ -420,32 +420,36 @@
 
 1289792522 d:\software development\c++\libraries\allegro-5.0.5-mingw-4.4.0\include\allegro5\alcompat.h
 
-1328164905 source:d:\software development\c++\misc\allegro_test\src\pro_window.c
+1328175209 source:d:\software development\c++\misc\allegro_test\src\pro_window.c
 	"pro_main.h"
 	"pro_window.h"
 	"pro_window_signals.h"
 
-1328106239 d:\software development\c++\misc\allegro_test\include\pro_main.h
+1328174105 d:\software development\c++\misc\allegro_test\include\pro_main.h
 	<stdlib.h>
 	<stdio.h>
+	"pro_platform.h"
 	"pro_macro.h"
 	"pro_signal.h"
 
-1328164913 d:\software development\c++\misc\allegro_test\include\pro_window.h
+1328175155 d:\software development\c++\misc\allegro_test\include\pro_window.h
 	<stdlib.h>
 	<allegro5/allegro.h>
 	"pro_main.h"
 
 1328106464 d:\software development\c++\misc\allegro_test\include\pro_macro.h
 
-1328164951 d:\software development\c++\misc\allegro_test\include\pro_signal.h
+1328166196 d:\software development\c++\misc\allegro_test\include\pro_signal.h
 
-1328164854 source:d:\software development\c++\misc\allegro_test\src\pro_window_signals.c
+1328174788 source:d:\software development\c++\misc\allegro_test\src\pro_window_signals.c
 	"pro_window.h"
 	"pro_window_signals.h"
 
-1328164570 d:\software development\c++\misc\allegro_test\include\pro_window_signals.h
+1328165763 d:\software development\c++\misc\allegro_test\include\pro_window_signals.h
 
 1296168116 d:\software development\c++\libraries\allegro-5.0.5-mingw-4.4.0\include\allegro5\allegro_native_dialog.h
 	"allegro5/allegro.h"
+
+1328174090 d:\software development\c++\misc\allegro_test\include\pro_platform.h
+	<windows.h>
 

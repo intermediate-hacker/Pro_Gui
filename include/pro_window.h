@@ -37,6 +37,11 @@ void pro_window_destroy( Pro_Window* win );
 /** Redraws the window, calls the paint signals **/
 void pro_window_redraw( Pro_Window* win );
 
+/** @retval 1 if window is open, 0 if window has quit **/
+int pro_window_is_open( Pro_Window* win );
+/** Quits the window main loop **/
+void pro_window_quit( Pro_Window* win );
+
 /** @retval width of the window. **/
 int pro_window_get_width( Pro_Window* win );
 /**  @retval height of the window **/
@@ -49,5 +54,13 @@ ALLEGRO_DISPLAY* pro_window_get_display( Pro_Window* win );
 void pro_window_set_fps( Pro_Window* win, float fps );
 /** @retval frame rate per second of the window **/
 float pro_window_get_fps( Pro_Window* win );
+
+/** @param [in]] color used to fill the window **/
+void pro_window_set_fill_color( Pro_Window* win, ALLEGRO_COLOR color );
+/** @retval color used to fill the window **/
+ALLEGRO_COLOR pro_window_get_fill_color( Pro_Window* win );
+
+/** sets al_target_bitmap back to Pro_Window's back buffer **/
+void pro_window_return_target( Pro_Window* win );
 
 #endif /* PRO_WINDOW_H */
