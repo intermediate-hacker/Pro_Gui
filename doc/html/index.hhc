@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structures"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="_Pro_Window"><param name="Local" value="struct___pro___window.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="priv"><param name="Local" value="struct___pro___window.html#ab1cc67c30afc14d5e971aee8fbf6bbd4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="signal"><param name="Local" value="struct___pro___window.html#a7cbcb0fdd96cec1b9a25a5fc49972e8f"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Data Structure Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="1"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_macro.h"><param name="Local" value="pro__macro_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_DELETE"><param name="Local" value="pro__macro_8h.html#aa85a6a84178d57532b74d4ff96d85db6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_NEW"><param name="Local" value="pro__macro_8h.html#a8eb192e2f5ae4dfe6208f09ca5f8e0f9"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_main.h"><param name="Local" value="pro__main_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_signal.h"><param name="Local" value="pro__signal_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_ERROR"><param name="Local" value="pro__signal_8h.html#af718d8476adad5395165d899ff5d53f1"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_SIGNAL"><param name="Local" value="pro__signal_8h.html#a410f50d729d7726ce0e5615bb0687d3c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_signal_emit"><param name="Local" value="pro__signal_8h.html#a7cf650e4d5f74fb30c9d703574968b66"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="PRO_SIGNAL_MAX"><param name="Local" value="pro__signal_8h.html#a7c05020c86a4a6970b9dc8c0df7632fa"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Pro_Signal"><param name="Local" value="pro__signal_8h.html#a3eddae374c9fd8a138c22f1960e30e7b"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="D:/Software Development/C++/misc/allegro_test/include/pro_window.h"><param name="Local" value="pro__window_8h.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Pro_Window"><param name="Local" value="pro__window_8h.html#a704441123d6f03a308bc3d0f340202b3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Pro_Window_Private"><param name="Local" value="pro__window_8h.html#a6dbb8facf24e5d2ece6e277ae477ff7e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Pro_Window_Signals"><param name="Local" value="pro__window_8h.html#a465f86dc848d1010b1ea4d310280ac94"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_destroy"><param name="Local" value="pro__window_8h.html#a94c791e65a435363030af70d80566629"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_display"><param name="Local" value="pro__window_8h.html#a3144b9fd3de420ca2a019c18975f122e"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_fps"><param name="Local" value="pro__window_8h.html#a87ad8ead9b837487af61221e07759339"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_height"><param name="Local" value="pro__window_8h.html#a8878c874c2639752ad50d086b7aaaae7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_get_width"><param name="Local" value="pro__window_8h.html#a7328d114fe9dc881a184adcee1277c8b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_new"><param name="Local" value="pro__window_8h.html#ac7bdf7e6a1e12d6aa225483d7f3ae575"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_paint_connect"><param name="Local" value="pro__window_8h.html#a6ce6ba672dcb7fe207911f72f2453bdc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_paint_count"><param name="Local" value="pro__window_8h.html#a8f3a1e4eec01f922fa76223da278d5b4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_paint_emit"><param name="Local" value="pro__window_8h.html#a0d65522e82597ada2126cd574c07b29c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_redraw"><param name="Local" value="pro__window_8h.html#a81451729d2803ba8a015c17557ae6a93"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_run"><param name="Local" value="pro__window_8h.html#a2aa03384a606128d0a1e8787cbf8523c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pro_window_set_fps"><param name="Local" value="pro__window_8h.html#ab3465e3de783bd796f041e566af66ab8"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Globals"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Defines"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="allegro_test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\allegro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\allegro_test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:\Software Development\C++\Libraries\allegro-5.0.5-mingw-4.4.0\include" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="liballegro-5.0.5-mt.a" />
+			<Add library="liballegro_acodec-5.0.5-mt.a" />
+			<Add library="liballegro_audio-5.0.5-mt.a" />
+			<Add library="libvorbisfile-1.3.2-static-mt.a" />
+			<Add library="libvorbis-1.3.2-static-mt.a" />
+			<Add library="liballegro_color-5.0.5-mt.a" />
+			<Add library="liballegro_dialog-5.0.5-mt.a" />
+			<Add library="liballegro_font-5.0.5-mt.a" />
+			<Add library="liballegro_image-5.0.5-mt.a" />
+			<Add library="liballegro_memfile-5.0.5-mt.a" />
+			<Add library="liballegro_physfs-5.0.5-mt.a" />
+			<Add library="liballegro_primitives-5.0.5-mt.a" />
+			<Add library="liballegro_ttf-5.0.5-mt.a" />
+			<Add library="libdumb-0.9.3-static-mt.a" />
+			<Add library="libFLAC-1.2.1-static-mt.a" />
+			<Add library="libfreetype-2.4.4-static-mt.a" />
+			<Add library="libogg-1.2.1-static-mt.a" />
+			<Add library="libzlib-1.2.5-static-mt.a" />
+			<Add library="uuid" />
+			<Add library="kernel32" />
+			<Add library="winmm" />
+			<Add library="libpsapi" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="user32" />
+			<Add library="comdlg32" />
+			<Add library="gdi32" />
+			<Add library="shell32" />
+			<Add library="ole32" />
+			<Add library="advapi32" />
+			<Add library="ws2_32" />
+			<Add library="shlwapi" />
+			<Add directory="D:\Software Development\C++\Libraries\allegro-5.0.5-mingw-4.4.0\lib" />
+			<Add directory="D:\Software Development\C++\Libraries\allegro-5.0.5-mingw-4.4.0\bin" />
+		</Linker>
+		<Unit filename="include\pro_macro.h" />
+		<Unit filename="include\pro_main.h" />
+		<Unit filename="include\pro_signal.h" />
+		<Unit filename="include\pro_window.h">
+			<Option compilerVar="CC" />
+			<Option compile="1" />
+			<Option link="1" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\pro_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\pro_window_signals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
